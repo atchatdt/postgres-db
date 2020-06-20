@@ -1,0 +1,4 @@
+--Performing Set Operations
+-- UNION
+-- gom 2 bảng có củng: số cột, các tên cột giống nhau, kiểu dữ liệu cũng phải giống nhau => bỏ những hàng trùng nhau
+-- UNION ALL: giống UNION nhưng không loại trùng

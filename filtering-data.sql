@@ -104,7 +104,7 @@ FROM
 	payment
 WHERE
 	amount BETWEEN 7 AND 9
-ORDER BY amount
+ORDER BY amount;
 
 -- LIKE
 SELECT

@@ -18,14 +18,14 @@ SELECT
 FROM
    customer
 ORDER BY 
-   customer_id ASC
+   customer_id ASC;
 
 
 SELECT
    customer_id, CONCAT(first_name, last_name) as fullname, email
 FROM
    customer
-ORDER BY customer_id DESC
+ORDER BY customer_id DESC;
 
 
 SELECT
@@ -56,9 +56,10 @@ FROM
 	t1
 ORDER BY
 	bcolor,
-	fcolor
+	fcolor;
 
-SELECT * FROM t1
+SELECT * FROM t1;
+
 SELECT
 	DISTINCT ON
 	(bcolor) bcolor,
